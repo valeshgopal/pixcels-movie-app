@@ -8,8 +8,8 @@ require('dotenv').config();
 app.use(express.json());
 app.use(cors());
 
-const username = valesh;
-const password = pwd1234;
+const username = 'valesh';
+const password = 'pwd1234';
 
 mongoose.connect(
   `mongodb+srv://${username}:${password}@pixcels.rfhmf.mongodb.net/MoviesDB?retryWrites=true&w=majority`
